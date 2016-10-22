@@ -1,0 +1,40 @@
+LOCAL - windows
+
+1 imagem - 606k - Page generated in 	2.3409 seconds.
+10 images - 606k - Page generated in 	22.1016 seconds (aprox 2,21016 p/i).
+20 images - 606k - Page generated in 	43.2036 seconds (aprox 2,16018 p/i).
+
+Média - 2,23708 ~ 2500 itens = 5592,7 - 93,21166 - 1h 34min
+
+Carregamento on demand
+
+/?id=11&width=800&height=600	2.19s
+/?id=11&width=45&height=45		1.35s
+/?id=11&width=245&height=245	1.60s
+/?id=11&width=640&height=480	2.21s
+
+
+--------------------------------------------------------------------
+
+1 imagem - 606k - Page generated in 	0,3004 seconds.
+
+10 images - 606k - Page generated in 	2,4269 seconds (aprox 0,24269 p/i).
+
+20 images - 606k - Page generated in 	4,6915 seconds (aprox 0,234575 p/i).
+
+Média - 0,777665 ~ 2500 itens = 1944,1625 - 32,5 min
+
+Multi task
+
+10 images - 606k - Page generated in 	0,5829 seconds (aprox 0,05829 p/i).
+
+20 images - 606k - Page generated in 	1,7328 seconds (aprox 0,086640 p/i).
+
+Média - 0,44533 ~ 2500 itens = 1113,325 - 18,56 min
+
+Carregamento on demand
+
+/?id=11&width=800&height=600	360ms
+/?id=11&width=45&height=45		217ms
+/?id=11&width=245&height=245	269ms
+/?id=11&width=640&height=480	328ms

@@ -1,0 +1,46 @@
+$ ab -n 500 -c 100 -t 30 http://localhost/projects/media-server-php/IMAGEM-800-600.jpg
+
+This is ApacheBench, Version 2.3 <$Revision: 655654 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        Apache/2.2.20
+Server Hostname:        localhost
+Server Port:            80
+
+Document Path:          /projects/media-server-php/IMAGEM-800-600.jpg
+Document Length:        43580 bytes
+
+Concurrency Level:      100
+Time taken for tests:   31.045 seconds
+Complete requests:      1746
+Failed requests:        5
+   (Connect: 0, Receive: 0, Length: 5, Exceptions: 0)
+Write errors:           0
+Total transferred:      76259929 bytes
+HTML transferred:       75921932 bytes
+Requests per second:    56.24 [#/sec] (mean)
+Time per request:       1778.080 [ms] (mean)
+Time per request:       17.781 [ms] (mean, across all concurrent requests)
+Transfer rate:          2398.84 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        3 1301 2388.6    162    7138
+Processing:     0  210 991.4      9    6344
+Waiting:        0  175 982.4      0    6146
+Total:          7 1511 2499.0    195    7141
+
+Percentage of the requests served within a certain time (ms)
+  50%    195
+  66%    420
+  75%    699
+  80%   5426
+  90%   6794
+  95%   6997
+  98%   7041
+  99%   7054
+ 100%   7141 (longest request)
